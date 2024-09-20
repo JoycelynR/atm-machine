@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.atm-container {
+    background: #fff; /* White background for the ATM */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text inside the container */
+}
+
+h1 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.display {
+    margin-bottom: 20px; /* Space below the balance display */
+}
+
+.input-group {
+    display: flex; /* Use flexbox for input and buttons */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+input {
+    padding: 10px; /* Padding inside the input */
+    font-size: 16px; /* Font size */
+    margin-bottom: 10px; /* Space below the input */
+    width: 200px; /* Fixed width for the input */
+}
+
+button {
+    padding: 10px 20px; /* Padding inside the buttons */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    margin: 5px; /* Space around buttons */
+    transition: background-color 0.3s; /* Smooth background change on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
